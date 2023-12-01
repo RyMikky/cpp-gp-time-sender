@@ -7,6 +7,16 @@
     Подготовить Docker образ на базе Debian12 и bash-скрипт для запуска консольного приложения из Docker-контейнера.
 */
 
+Консольные ключи запуска
+№ | Short | Large command     | Description
+1 | -u    | --utest           | Launch Unit-tests
+2 | -v    | --verbose         | Show debug information in std::cerr
+3 | -c    | --fib-in-cerr     | Show fibonacci numbers in std::cerr
+4 | -t    | --timer-period    | Set timer period, in sec
+5 | -w    | --web-address     | URL-address to send info
+6 | -p    | --web-port        | URL-address port to send info
+7 | -d    | --db-name         | Database filename
+
 Сборка под Linux
 
 # mkdir -p build-release 
