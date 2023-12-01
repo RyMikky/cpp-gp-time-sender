@@ -9,13 +9,14 @@
 
 Консольные ключи запуска
 № | Short | Large command     | Description
-1 | -u    | --utest           | Launch Unit-tests
-2 | -v    | --verbose         | Show debug information in std::cerr
-3 | -c    | --fib-in-cerr     | Show fibonacci numbers in std::cerr
-4 | -t    | --timer-period    | Set timer period, in sec
-5 | -w    | --web-address     | URL-address to send info
-6 | -p    | --web-port        | URL-address port to send info
-7 | -d    | --db-name         | Database filename
+1 | -h    | --help            | Show console commands descriptions
+2 | -u    | --utest           | Launch Unit-tests
+3 | -v    | --verbose         | Show debug information in std::cerr
+4 | -c    | --fib-in-cerr     | Show fibonacci numbers in std::cerr
+5 | -t    | --timer-period    | Set timer period, in sec
+6 | -w    | --web-address     | URL-address to send info
+7 | -p    | --web-port        | URL-address port to send info
+8 | -d    | --db-name         | Database filename
 
 Сборка под Linux
 

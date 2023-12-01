@@ -25,7 +25,7 @@ namespace com {
             static const int _MIN_ARGS = 2;
 
             enum class PARAM_TYPE {
-                NOAP, HELP, TIMER_PERIOD, WEB_ADDRESS, WEB_PORT, DB_NAME, UTEST, VERBOSE, FIB_CERR
+                NOAP, HELP, UTEST, VERBOSE, FIB_CERR, TIMER_PERIOD, WEB_ADDRESS, WEB_PORT, DB_NAME
                 // NOAP - Not a Parameter
             };
 

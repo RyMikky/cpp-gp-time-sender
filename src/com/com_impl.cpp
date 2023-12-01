@@ -110,7 +110,7 @@ namespace com {
                 out << "Use next console arguments" << std::endl;
                 
                 PrintTableHeader(out);
-                PARAM_TYPE param = PARAM_TYPE::UTEST;
+                PARAM_TYPE param = PARAM_TYPE::HELP;
                 while (param != PARAM_TYPE::NOAP)
                 {
                     ParamExpression expression = GetParamExpression(param);
@@ -129,7 +129,7 @@ namespace com {
                 out << "\nFor example:\n";
                 out << "\t" << ParamType::TIMER_PERIOD_LARGE << "=15 "; 
                 out << ParamType::WEB_ADDRESS_LARGE << "=https://www.web_site_com ";
-                out << ParamType::WEB_PORT_SHORT << "=8183";
+                out << ParamType::WEB_PORT_SHORT << "=8183 ";
                 out << ParamType::DB_NAME_LARGE << "=my_test_data_base\n";
                 out << "\nTry run application again whit correct arguments" << std::endl;
             }
